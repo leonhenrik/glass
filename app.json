@@ -1,55 +1,28 @@
 {
   "expo": {
-    "name": "GLASS",
-    "slug": "glass",
+    "name": "eumocracy",
+    "slug": "snack-87759285-6e66-4396-b12a-6f5a287bb423",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.politiqs.glass"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.politiqs.glass"
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "ec546437-af21-43c3-acf0-aa846db0169a"
       }
     },
-    "owner": "politiqs",
-    "updates": {
-      "url": "https://u.expo.dev/ec546437-af21-43c3-acf0-aa846db0169a"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
